@@ -16,6 +16,7 @@
 
 #define MB (1000 * 1000)
 
+
 typedef struct pre_settings_t {
   double amount_to_process;
   int lines_to_read;
