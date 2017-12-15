@@ -1,6 +1,6 @@
 #include <unistd.h>
-#include <iostream>
 #include <stdint.h>
+#include <iostream>
 #include <fstream>
 #include <chrono>
 #include <ctime>
@@ -15,6 +15,7 @@
 #include "host/verify.hpp"
 
 #define MB (1000 * 1000)
+
 
 typedef struct pre_settings_t {
   double amount_to_process;
